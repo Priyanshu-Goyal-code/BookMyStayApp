@@ -1,30 +1,37 @@
 /**
- * <h1>01 Book My Stay App</h1>
- * This class serves as the official entry point for the Hotel Booking Management System.
- * It demonstrates the fundamental structure of a Java application, including
- * the main method, static execution, and basic console output.
  *
- * @author Niranjan Manivannan
+ * MAIN CLASS UseCase1HotelBookingApp
+ *
+ * Use Case 1: Application Entry & Welcome Message
+ *
+ * Description:
+ * This class represents the entry point of the
+ * Hotel Booking Management System.
+ *
+ * At this stage, the application:
+ * Starts execution from the main() method
+ * Displays a welcome message to the user
+ * Confirms that the system has started successfully
+ *
+ * No business logic, data structures, or user input
+ * is implemented in this use case.
+ * The goal is to establish a clear and predictable
+ * application startup point.
+ * @Krishdshah Developer
  * @version 1.0
- */
-public class BookMyStayApp {
-
+ **/
+public class UseCase1HotelBookingApp {
     /**
-     * The main method is the entry point of every standalone Java application.
-     * The JVM looks specifically for this method signature to begin execution.
+     * Application entry point.
      *
-     * @param args Command line arguments used to pass data during startup.
+     * This method is the first method executed
+     *when the program is launched by the JVM.
+     *
+     * @param args Command-line arguments
      */
-    public static void main(String[] args) {
-
-        // Outputting the Welcome Message and Metadata
-        System.out.println("=============================================");
-        System.out.println("   Welcome to the Hotel Booking System");
-        System.out.println("   Application: Book My Stay App");
-        System.out.println("   Version: 1.0.0");
-        System.out.println("=============================================");
-
-        System.out.println("System Initialization Complete.");
-        System.out.println("Application is now terminating.");
+    public static void  main(String[] args){
+        System.out.println("Welcome to the Hotel Booking Management System");
+        System.out.println("System initialized successfully");
     }
+
 }
